@@ -66,7 +66,7 @@ def calcularPuntos(cadena,angulo,lado):
 
 def graficar (puntos):
 
-	#hideturtle()
+	hideturtle()
 	speed(5)
 	wn = Screen()
 	wn.bgcolor("white")
